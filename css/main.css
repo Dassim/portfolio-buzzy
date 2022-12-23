@@ -1,0 +1,68 @@
+span{
+    color: aqua;
+}
+.nav-item a:hover{
+    color: rgb(183, 81, 38);
+}
+.personal-icons{
+    font-size: 25px;
+}
+.personal-icons .nav-menu{
+    list-style: none;
+}
+.content-image{
+    border: 3px solid #1476ab;
+}
+.content-image:hover{
+    opacity: 0.4;
+    transition: 3s all ease-in blue;
+    border: 4px solid red;
+}
+.content-images{
+    border: 3px solid #1476ab;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+.content-image-btn{
+    border: 3px solid rgb(20, 118, 171);
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.content-image-btn:hover{
+    border: 4px solid red;
+}
+.content-img-team{
+    border: 3px solid rgb(20, 118, 171);
+    border-radius: 40%;
+    margin: auto;
+}
+h4{
+    text-align: center;
+}
+#icons{
+    font-size: 45px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+.badges{
+    position: relative;
+    float: right;
+}
+.badges i{
+    font-size: 25px;
+    color: rgb(21, 23, 18);
+}
+.badges .barge-number{
+    position: absolute;
+    inset: -2px -8px auto auto;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+.team-icon i{
+    font-size: 25px;
+}
